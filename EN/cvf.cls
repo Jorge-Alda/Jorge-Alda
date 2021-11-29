@@ -6,8 +6,14 @@
 \RequirePackage[margin=2.5cm]{geometry}
 \RequirePackage{graphicx}
 \RequirePackage{amssymb}
+\RequirePackage{array}
 \RequirePackage{hyperref}
 \hypersetup{bookmarksdepth=1}
+
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+
 
 \titleformat{\section}{\LARGE\sffamily\bfseries\raggedright}{}{0em}{}[\titlerule]
 
