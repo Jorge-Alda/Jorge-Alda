@@ -5,6 +5,7 @@
 \RequirePackage{titlesec}
 \RequirePackage[margin=2.5cm]{geometry}
 \RequirePackage{graphicx}
+\RequirePackage{amssymb}
 \RequirePackage{hyperref}
 
 \titleformat{\section}{\LARGE\sffamily\bfseries\raggedright}{}{0em}{}[\titlerule]
@@ -29,6 +30,8 @@
 
 \newcommand{\orcid}[1]{\includegraphics[height=\baselineskip]{icons/orcid.png}\hspace{0.3cm}\href{https://orcid.org/#1}{\texttt{#1}}\\}
 
+\newcommand{\interests}[1]{\section[#1]{\includegraphics[height=\baselineskip]{icons/star.png}\hspace{0.5cm}#1} }
+
 \newcommand{\education}[1]{\section[#1]{\includegraphics[height=\baselineskip]{icons/graduation-cap.png}\hspace{0.5cm}#1} }
 
 \newcommand{\grants}[1]{\section[#1]{\includegraphics[height=\baselineskip]{icons/invoice.png}\hspace{0.5cm}#1} }
@@ -50,3 +53,11 @@
 \newcommand{\coding}[1]{\section[#1]{\includegraphics[height=\baselineskip]{icons/computer.png}\hspace{0.5cm}#1} }
 
 \newcommand{\awards}[1]{\section[#1]{\includegraphics[height=\baselineskip]{icons/trophy.png}\hspace{0.5cm}#1} }
+
+\newcommand{\level}[1]{\ifnum#1=0 $\square\square\square\square\square$ \fi 
+\ifnum#1=1 $\blacksquare\square\square\square\square$ \fi
+\ifnum#1=2 $\blacksquare\blacksquare\square\square\square$ \fi
+\ifnum#1=3 $\blacksquare\blacksquare\blacksquare\square\square$ \fi
+\ifnum#1=4 $\blacksquare\blacksquare\blacksquare\blacksquare\square$ \fi
+\ifnum#1=5 $\blacksquare\blacksquare\blacksquare\blacksquare\blacksquare$ \fi
+}
