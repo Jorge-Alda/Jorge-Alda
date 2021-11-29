@@ -1,12 +1,13 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{cvf}[CV class]
 
-\LoadClass[11pt,a4paper]{article}
+\LoadClass[12pt,a4paper]{article}
 \RequirePackage{titlesec}
 \RequirePackage[margin=2.5cm]{geometry}
 \RequirePackage{graphicx}
 \RequirePackage{amssymb}
 \RequirePackage{hyperref}
+\hypersetup{bookmarksdepth=1}
 
 \titleformat{\section}{\LARGE\sffamily\bfseries\raggedright}{}{0em}{}[\titlerule]
 
