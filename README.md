@@ -1,4 +1,10 @@
-### Hi there 👋
+Hi, I'm Jorge Alda. I am a PhD student in theoretical Physics at [University of Zaragoza](https://fteorica.unizar.es/)/[CAPA](https://capa.unizar.es/en/) (Spain). I'm interested in New Physics and Effective Field Theories in the Flavour sector and _B_-anomalies.
+
+## More info
+* [Up-to-date CV](https://raw.githubusercontent.com/Jorge-Alda/CV/main/EN/CV_Jorge_Alda.pdf)
+* [ORCID profile](https://orcid.org/0000-0002-6728-1105)
+* If you want to contact me, you can try [the discussion section](https://github.com/Jorge-Alda/Jorge-Alda/discussions).
+
 
 <!--
 **Jorge-Alda/Jorge-Alda** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
