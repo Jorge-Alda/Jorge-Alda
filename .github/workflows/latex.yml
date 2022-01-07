@@ -2,7 +2,7 @@
 name: LaTeXMK
 
 env:
-  MAIN_FILE: CV/CV #name of the main .tex and .bbl file, without the extension
+  MAIN_FILE: CV #name of the main .tex and .bbl file, without the extension
 
 # Controls when the workflow will run
 on:
@@ -21,7 +21,8 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
+      - name: chdir
+        run: cd CV
       - name: Replace tag id
         run: find . -type f -name "*.tex" -exec sed -i "s/++TAGNUM++/${{ github.ref_name }}/g" {} +
       # Compiles the tex file, https://github.com/marketplace/actions/latexmk
