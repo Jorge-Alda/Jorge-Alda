@@ -35,6 +35,8 @@
 
 \newcommand{\github}[1]{\includegraphics[height=\baselineskip]{icons/github.png}\hspace{0.3cm}\href{https://github.com/#1}{\texttt{#1}}\\}
 
+\newcommand{\webpage}[1]{\includegraphics[height=\baselineskip]{icons/internet.png}\hspace{0.1cm} \url{#1}\\}
+
 \newcommand{\orcid}[1]{\includegraphics[height=\baselineskip]{icons/orcid.png}\hspace{0.3cm}\href{https://orcid.org/#1}{\texttt{#1}}\\}
 
 \newcommand{\interests}[1]{\section[#1]{\includegraphics[height=\baselineskip]{icons/star.png}\hspace{0.5cm}#1} }
