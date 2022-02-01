@@ -1,12 +1,13 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{cvf}[CV class]
 
-\LoadClass[12pt,a4paper]{article}
+\LoadClass[12pt,a4paper]{book}
 \RequirePackage{titlesec}
 \RequirePackage[margin=2.5cm]{geometry}
 \RequirePackage{graphicx}
 \RequirePackage{amssymb}
 \RequirePackage{array}
+\RequirePackage{fourier}
 \RequirePackage{hyperref}
 \hypersetup{bookmarksdepth=1}
 
@@ -14,6 +15,8 @@
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
 
+
+\titleformat{\chapter}{\huge\sffamily\bfseries\raggedright}{}{0em}{}[\titlerule]
 
 \titleformat{\section}{\LARGE\sffamily\bfseries\raggedright}{}{0em}{}[\titlerule]
 
