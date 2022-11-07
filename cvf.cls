@@ -66,6 +66,8 @@
 
 \newcommand{\awards}[1]{\section[#1]{\includegraphics[height=\baselineskip]{icons/trophy.png}\hspace{0.5cm}#1} }
 
+\newcommand{\dissemination}[1]{\section[#1]{\includegraphics[height=\baselineskip]{icons/megaphone.png}\hspace{0.5cm}#1} }
+
 \newcommand{\level}[1]{\ifnum#1=0 $\square\square\square\square\square$ \fi 
 \ifnum#1=1 $\blacksquare\square\square\square\square$ \fi
 \ifnum#1=2 $\blacksquare\blacksquare\square\square\square$ \fi
