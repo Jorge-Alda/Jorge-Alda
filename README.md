@@ -1,4 +1,4 @@
-Hi, I'm Jorge Alda. I am a PhD student in theoretical Physics at [University of Zaragoza](https://fteorica.unizar.es/)/[CAPA](https://capa.unizar.es/en/) (Spain). I'm interested in New Physics and Effective Field Theories in the Flavour sector and _B_-anomalies.
+Hi, I'm Jorge Alda. I am a PostDoc researcher in theoretical Physics at Università degli Studi di Padova (Italy). I'm interested in New Physics (especially Axions and Axion-like particles) and Effective Field Theories in the Flavour sector and _B_-anomalies.
 
 ## More info
 * [Up-to-date CV](https://github.com/Jorge-Alda/Jorge-Alda/releases/latest/download/CV.pdf)
