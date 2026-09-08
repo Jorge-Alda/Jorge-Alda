@@ -52,6 +52,8 @@
 
 \newcommand{\works}[1]{\section[#1]{\includegraphics[height=\baselineskip]{icons/pendulum.png}\hspace{0.5cm}#1} }
 
+\newcommand{\reviews}[1]{\section[#1]{\includegraphics[height=\baselineskip]{icons/highlighter.png}\hspace{0.5cm}#1} }
+
 \newcommand{\invited}[1]{\section[#1]{\includegraphics[height=\baselineskip]{icons/distance.png}\hspace{0.5cm}#1} }
 
 \newcommand{\conferences}[1]{\section[#1]{\includegraphics[height=\baselineskip]{icons/feedback.png}\hspace{0.5cm}#1} }
